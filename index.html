@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Nidra – Support</title>
+  <title>Nidra – Help & Support</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     body {
@@ -35,21 +35,43 @@
     .email {
       font-weight: 600;
     }
+    .tabs {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 8px;
+    }
+    .tab {
+      text-decoration: none;
+      font-weight: 600;
+      color: #007aff;
+      font-size: 15px;
+    }
+    .tab.active {
+      color: #111;
+      cursor: default;
+    }
   </style>
 </head>
 <body>
   <div class="container">
+    <div class="tabs">
+      <span class="tab active">Help</span>
+      <a class="tab" href="privacy.html">Privacy Policy</a>
+    </div>
+
     <h1>Nidra Support</h1>
 
     <p>
-      Nidra is a meditation app designed to help build focus, discipline, and calm
-      through consistent daily practice. If you need help or have questions, you
-      can reach out using the contact information below.
+      Nidra is a meditation app designed to help build focus, discipline,
+      and calm through consistent daily practice. This page provides
+      support information and answers to common questions.
     </p>
 
     <h2>Contact</h2>
     <p>
-      For support, feedback, or issues, email:
+      For support, feedback, or technical issues, contact:
       <span class="email">pranavv365@gmail.com</span>
     </p>
 
@@ -57,16 +79,16 @@
 
     <h2>How does Nidra work?</h2>
     <p>
-      You complete meditation sessions inside the app. Each completed session earns
-      you points, which contribute to your overall ranking on the leaderboard.
-      The more consistently you practice, the higher you rank compared to other users.
+      You complete meditation sessions within the app. Each completed
+      session earns points that contribute to your leaderboard ranking
+      against other users.
     </p>
 
     <h2>What is consistency?</h2>
     <p>
-      Consistency is a score that tracks how many days in a row you complete at least
-      one meditation session. Maintaining a daily streak increases your consistency
-      score and reflects long-term discipline.
+      Consistency is a streak-based score that tracks how many consecutive
+      days you complete at least one meditation session. Longer streaks
+      result in higher consistency scores.
     </p>
   </div>
 </body>
